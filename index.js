@@ -73,5 +73,18 @@ else if (hour >= 12 && hour <= 6){
 else{
     console.log("Good Evening!");
 }
+//ii)Switch(variable)
+let role = "guest";
+switch (role){
+    case "guest":
+        console.log("Guest User");
+        break;
+    case "moderator":
+        console.log("Moderator User");
+        break;
+    //default kaj korbe jokhon uper kono case e applicable hobe na. Default a kono condition lage na ar kono break lage na.
+    default:
+        console.log("Unknown User");
+}
 
 
