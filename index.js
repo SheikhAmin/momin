@@ -61,3 +61,4 @@ let eligibleForLoan = highIncome || goodCreditScore;
 console.log(eligibleForLoan);
 let applicationRefused = !eligibleForLoan;
 console.log(applicationRefused);
+
