@@ -92,4 +92,12 @@ for (let i = 1; i <=5; i++){
         console.log("Odd number " + i);
     }
 }
+//While Loop
+let i = 0;
+while(i <=5){
+    if(i % 2 !==0){
+        console.log("Odd number " + i);
+    }
+}
+
 
