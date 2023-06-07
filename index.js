@@ -61,4 +61,17 @@ let eligibleForLoan = highIncome || goodCreditScore;
 console.log(eligibleForLoan);
 let applicationRefused = !eligibleForLoan;
 console.log(applicationRefused);
+//Conditionla Statement
+//i)If....else:if hour is between 6am and 12pm:good morning.If it is between 12pm and 6pm:good afternoon.Otherwise:good evening.
+let hour = 10;
+if ( hour >= 6 && hour <= 12){
+    console.log("Good Morning!");
+}
+else if (hour >= 12 && hour <= 6){
+    console.log("Good Afternoon!");
+}
+else{
+    console.log("Good Evening!");
+}
+
 
