@@ -48,3 +48,7 @@ function greet(name1){
  console.log(1 == "1");
  console.log(true == 1);
  //Ternary operator:
+let points = 100;
+ let type = points > 100 ? "gold" : "silver";
+ console.log(type);
+//Logical operators
