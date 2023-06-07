@@ -86,5 +86,10 @@ switch (role){
     default:
         console.log("Unknown User");
 }
-
+//For loop
+for (let i = 1; i <=5; i++){
+    if(i % 2 !==0){
+        console.log("Odd number " + i);
+    }
+}
 
