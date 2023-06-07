@@ -48,7 +48,16 @@ function greet(name1){
  console.log(1 == "1");
  console.log(true == 1);
  //Ternary operator:
-let points = 100;
+ let points = 100;
  let type = points > 100 ? "gold" : "silver";
  console.log(type);
-//Logical operators
+//Logical operators:1)Logical AND(&&) return true if both operands are true
+//Logical operators:2)Logical OR(||) return true if one of the operands is true
+//Logical operators:2)Logical NOT(!) return the opposite whatever we give
+console.log(true && true);
+let highIncome = false;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome || goodCreditScore;
+console.log(eligibleForLoan);
+let applicationRefused = !eligibleForLoan;
+console.log(applicationRefused);
