@@ -93,10 +93,10 @@ for (let i = 1; i <=5; i++){
     }
 }
 //While Loop
-let i = 0;
-while(i <=5){
-    if(i % 2 !==0){
-        console.log("Odd number " + i);
+let j = 0;
+while(j <=5){
+    if(j % 2 !==0){
+        console.log("Odd number " + j);
     }
 }
 
