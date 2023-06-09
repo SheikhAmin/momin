@@ -10,3 +10,8 @@
  const anotherOne = `this is my 
  "first" message`;
  console.log(anotherOne);
+ const name = "John";
+ const read = "hi" + name + ",\n";
+
+ const anotherTwo = `Hi ${name}`;
+ console.log(anotherTwo);
