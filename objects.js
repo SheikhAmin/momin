@@ -27,8 +27,8 @@
       };
  }
 
- const circle1 = createCircle(1);
-// console.log(circle1);
+  const circle1 = createCircle(1);
+  console.log(circle1);
 
  //Constructor Function(Use Pascal Notation)
 
@@ -49,3 +49,4 @@
  for (let key in Circle) {
   console.log(key,circle[key]);
  }
+
