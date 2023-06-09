@@ -13,8 +13,10 @@
  };
 
  circle.draw();//method
+//Camel Notation: oneTwoThree
+//Pascal Notation: OneTwoThree
 
- //Factory Functio
+ //Factory Function(Use Camel Notation)
  function createCircle(radious) {
     return {
         radious,
@@ -27,3 +29,16 @@
 
  const circle1 = createCircle(1);
  console.log(circle1);
+
+ //Constructor Function(Use Pascal Notation)
+
+ function Circle(radious) {
+    this.radious = radious;
+    this.draw = function() {
+        console.log("Draw");
+    }
+ }
+
+ const MyCircle = new Circle(1);
+ MyCircle.draw();
+ console.log(MyCircle.radious);
