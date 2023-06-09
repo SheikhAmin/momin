@@ -28,7 +28,7 @@
  }
 
  const circle1 = createCircle(1);
- console.log(circle1);
+// console.log(circle1);
 
  //Constructor Function(Use Pascal Notation)
 
@@ -41,4 +41,11 @@
 
  const MyCircle = new Circle(1);
  MyCircle.draw();
- console.log(MyCircle.radious);
+ //console.log(MyCircle.radious);
+
+ // Premitives are copied by their values and Objects are copied by their reference
+
+ //Enumerating properties of object
+ for (let key in Circle) {
+  console.log(key,circle[key]);
+ }
