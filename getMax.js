@@ -15,3 +15,12 @@ function getMax(array){
     }
     return value;
 }
+
+//another approach
+function getMax1(array){
+    if(array.length === 0) return undefined;
+    array.reduce((accumulator, current) =>{
+        if(current > accumulator) return current;
+        return accumulator;
+    })
+}
