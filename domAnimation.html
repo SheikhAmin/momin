@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            position: relative;
+            background: yellow;
+            height: 400px;
+            width: 400px;
+        }
+        #animate{
+            position: absolute;
+            background: red;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id ="container">
+        <div id ="animate"></div>
+    </div>
+    <button onclick="myMove()">Animate</button>
+    <script src="domAnimation.js"></script>
+</body>
+</html>
