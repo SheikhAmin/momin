@@ -6,3 +6,7 @@ const doubledNumbers = numbers.map(function(number) {
 
 console.log(doubledNumbers);
 // Output: [2, 4, 6, 8, 10]
+const value = numbers.map((x) =>{
+    return x*2;
+});
+console.log(value);
