@@ -39,3 +39,11 @@ const user = {
  console.log(c,d);
  console.log(e,f,g);
 
+//use case of Destructuring: value swapping
+
+var a= 2;
+var b=1;
+
+[b,a] = [a,b];
+
+console.log(a,b);
